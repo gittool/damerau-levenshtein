@@ -2,6 +2,7 @@
 
 # Loads mkmf which is used to make makefiles for Ruby extensions
 require "mkmf"
+require 'fileutils'
 
 # The destination
 dir_config("damerau-levenshtein/damerau_levenshtein")
